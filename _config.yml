@@ -1,0 +1,23 @@
+title: 작은 위로
+description: 아이의 사진과 함께 하루의 위로를 전하는 iOS 앱
+url: https://tinymoments.site
+baseurl: ""
+lang: ko
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+permalink: /:categories/:title/
+
+app_store_url: https://apps.apple.com/kr/app/id6763057739
+github_url: https://github.com/soulwawa/tinymoments.site
+
+exclude:
+  - CLAUDE.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .gitignore

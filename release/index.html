@@ -1,0 +1,21 @@
+---
+layout: page
+title: 릴리즈 노트
+description: 작은 위로 버전별 업데이트 내역
+---
+{% assign release_posts = site.posts | where_exp: "p", "p.categories contains 'release'" %}
+{% if release_posts.size > 0 %}
+<ul class="post-list">
+  {% for post in release_posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y년 %-m월 %-d일" }}</time>
+      <h3>{{ post.title }}</h3>
+      {% if post.description %}<p class="post-excerpt">{{ post.description }}</p>{% endif %}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="post-list-empty">아직 릴리즈 내역이 없습니다.</p>
+{% endif %}

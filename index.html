@@ -1,92 +1,16 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>작은 위로 - Tiny Moments</title>
-    <meta name="description" content="아이의 사진과 함께 하루의 위로를 전하는 iOS 앱, 작은 위로.">
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif;
-            background: linear-gradient(135deg, #FAF8F2, #F5E6D0);
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #3D3028;
-            -webkit-font-smoothing: antialiased;
-        }
-        .container {
-            text-align: center;
-            padding: 2rem;
-            max-width: 480px;
-        }
-        h1 {
-            font-size: 2.25rem;
-            margin-bottom: 0.75rem;
-            letter-spacing: -0.02em;
-        }
-        .tagline {
-            font-size: 1.1rem;
-            color: #8B7355;
-            margin-bottom: 2.5rem;
-            line-height: 1.6;
-        }
-        .app-store-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.6rem;
-            padding: 0.85rem 1.5rem;
-            background: #3D3028;
-            color: #FAF8F2;
-            text-decoration: none;
-            border-radius: 999px;
-            font-size: 1rem;
-            font-weight: 500;
-            transition: transform 0.15s ease, box-shadow 0.15s ease;
-            box-shadow: 0 4px 12px rgba(61, 48, 40, 0.15);
-        }
-        .app-store-link:hover {
-            transform: translateY(-1px);
-            box-shadow: 0 6px 16px rgba(61, 48, 40, 0.22);
-        }
-        .app-store-link svg {
-            width: 20px;
-            height: 20px;
-            fill: currentColor;
-        }
-        .footer-links {
-            margin-top: 2rem;
-            font-size: 0.85rem;
-            color: #8B7355;
-        }
-        .footer-links a {
-            color: #8B7355;
-            text-decoration: none;
-            border-bottom: 1px solid transparent;
-            transition: border-color 0.15s ease;
-        }
-        .footer-links a:hover {
-            border-bottom-color: #8B7355;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>작은 위로</h1>
-        <p class="tagline">아이의 사진과 함께<br>하루의 위로를 전합니다.</p>
+---
+layout: home
+---
+<section class="hero">
+  <div class="hero-inner">
+    <h1>작은 위로</h1>
+    <p class="tagline">아이의 사진과 함께<br>하루의 위로를 전합니다.</p>
 
-        <a class="app-store-link" href="https://apps.apple.com/kr/app/id6763057739" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M17.05 12.46c-.03-2.69 2.2-3.99 2.3-4.05-1.25-1.83-3.2-2.08-3.89-2.11-1.66-.17-3.23.98-4.07.98-.84 0-2.13-.96-3.5-.93-1.8.03-3.46 1.05-4.38 2.65-1.87 3.23-.48 8 1.35 10.61.9 1.28 1.97 2.72 3.38 2.67 1.36-.05 1.87-.87 3.51-.87s2.1.87 3.53.84c1.46-.02 2.38-1.3 3.27-2.59 1.03-1.49 1.46-2.94 1.48-3.02-.03-.01-2.83-1.09-2.86-4.18zM14.34 4.68c.74-.9 1.25-2.15 1.11-3.39-1.07.04-2.37.71-3.14 1.6-.69.79-1.29 2.06-1.13 3.28 1.2.09 2.42-.6 3.16-1.49z"/>
-            </svg>
-            App Store에서 다운로드
-        </a>
-
-        <div class="footer-links">
-            <a href="/privacy/">개인정보 처리방침</a>
-        </div>
-    </div>
-</body>
-</html>
+    <a class="app-store-link" href="{{ site.app_store_url }}" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M17.05 12.46c-.03-2.69 2.2-3.99 2.3-4.05-1.25-1.83-3.2-2.08-3.89-2.11-1.66-.17-3.23.98-4.07.98-.84 0-2.13-.96-3.5-.93-1.8.03-3.46 1.05-4.38 2.65-1.87 3.23-.48 8 1.35 10.61.9 1.28 1.97 2.72 3.38 2.67 1.36-.05 1.87-.87 3.51-.87s2.1.87 3.53.84c1.46-.02 2.38-1.3 3.27-2.59 1.03-1.49 1.46-2.94 1.48-3.02-.03-.01-2.83-1.09-2.86-4.18zM14.34 4.68c.74-.9 1.25-2.15 1.11-3.39-1.07.04-2.37.71-3.14 1.6-.69.79-1.29 2.06-1.13 3.28 1.2.09 2.42-.6 3.16-1.49z"/>
+      </svg>
+      App Store에서 다운로드
+    </a>
+  </div>
+</section>
