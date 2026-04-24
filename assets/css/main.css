@@ -260,14 +260,16 @@ main {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    margin: 1.5rem 0;
+    margin: 1.5rem auto;
     display: block;
 }
 .post-content figure {
-    margin: 1.75rem 0;
+    margin: 1.75rem auto;
+    max-width: 440px;
 }
 .post-content figure img {
     margin: 0;
+    width: 100%;
 }
 .post-content figcaption {
     font-size: 0.85rem;
