@@ -244,13 +244,15 @@ main {
     margin: 1.25rem 0;
     font-style: normal;
 }
-.post-content a {
+.post-content a,
+.page-content a {
     color: var(--text);
     border-bottom: 1px solid var(--border);
     text-decoration: none;
     transition: border-color 0.15s ease;
 }
-.post-content a:hover { border-bottom-color: var(--text); }
+.post-content a:hover,
+.page-content a:hover { border-bottom-color: var(--text); }
 .post-content hr {
     border: none;
     border-top: 1px solid var(--border);
