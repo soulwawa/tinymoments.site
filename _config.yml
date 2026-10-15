@@ -14,6 +14,12 @@ permalink: /:categories/:title/
 app_store_url: https://apps.apple.com/kr/app/id6763057739
 github_url: https://github.com/soulwawa/tinymoments.site
 
+analytics:
+  production_hostname: tinymoments.site
+  measurement_id: G-14D97K9S8S
+
+google_site_verification: VElJolOjuWiq-HPizdgQjvdx4MjaPZy7BmQw3t88e7E
+
 exclude:
   - CLAUDE.md
   - README.md
@@ -21,3 +27,5 @@ exclude:
   - Gemfile.lock
   - vendor
   - .gitignore
+  - docs
+  - tests

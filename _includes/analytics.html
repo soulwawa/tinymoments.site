@@ -1,0 +1,9 @@
+{% if site.google_site_verification %}
+<meta name="google-site-verification" content="{{ site.google_site_verification | escape }}">
+{% endif %}
+{% if site.analytics.measurement_id %}
+<script id="site-analytics" defer src="{{ '/assets/js/analytics.js' | relative_url }}"
+  data-measurement-id="{{ site.analytics.measurement_id | escape }}"
+  data-hostname="{{ site.analytics.production_hostname | escape }}"
+  data-app-store-url="{{ site.app_store_url | escape }}"></script>
+{% endif %}
