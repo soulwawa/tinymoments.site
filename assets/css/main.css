@@ -48,24 +48,42 @@ main {
     position: fixed;
     inset: auto 1rem 1rem;
     z-index: 10;
-    padding: 1.25rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.875rem 1rem;
     background: var(--bg);
     border: 1px solid var(--border);
-    border-radius: 1rem;
+    border-radius: 0.75rem;
     box-shadow: 0 4px 24px rgba(61, 48, 40, 0.15);
-    max-width: var(--max-site);
+    max-width: 44rem;
     max-height: 70vh;
     overflow: auto;
     margin: 0 auto;
+    color: var(--text-body);
+    font-size: 0.875rem;
+    line-height: 1.5;
 }
-.analytics-consent h2 { font-size: 1.1rem; margin-bottom: 0.5rem; }
-.analytics-consent p, .analytics-consent a { font-size: 0.9rem; }
+.analytics-copy { flex: 1; min-width: 0; }
+.analytics-consent h2 { font-size: inherit; font-weight: 500; }
+.analytics-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 0.25rem;
+    color: var(--text-muted);
+    font-size: 0.8125rem;
+}
 .analytics-consent a { color: var(--text); }
-.analytics-actions { display: flex; gap: 0.75rem; margin-top: 0.75rem; }
+.analytics-meta a { display: inline-flex; align-items: center; min-height: 24px; }
+.analytics-actions { display: flex; flex-shrink: 0; gap: 0.5rem; }
 .analytics-actions button {
-    padding: 0.6rem 1.25rem;
+    min-width: 4rem;
+    min-height: 44px;
+    padding: 0.5rem 0.875rem;
     border: 1px solid var(--text);
-    border-radius: var(--radius);
+    border-radius: 0.5rem;
     background: var(--bg);
     color: var(--text);
     font: inherit;
@@ -74,6 +92,18 @@ main {
 .analytics-actions button:focus-visible, .analytics-settings:focus-visible {
     outline: 2px solid var(--text);
     outline-offset: 3px;
+}
+body:has(.analytics-consent:not([hidden])) { padding-bottom: 10rem; }
+@media (max-width: 640px) {
+    .analytics-consent {
+        inset: auto 0.75rem 0.75rem;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.75rem;
+        padding: 0.75rem;
+    }
+    .analytics-actions { justify-content: flex-end; }
+    body:has(.analytics-consent:not([hidden])) { padding-bottom: 13rem; }
 }
 
 /* --- Site header --- */

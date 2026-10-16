@@ -10,12 +10,13 @@
 </footer>
 {% if site.analytics.measurement_id %}
 <section id="analytics-consent" class="analytics-consent" aria-labelledby="analytics-consent-title" hidden>
-  <h2 id="analytics-consent-title">웹 방문 분석을 허용할까요?</h2>
-  <p>허용하면 Google Analytics로 방문 페이지·유입 경로·App Store 이동 클릭을 측정합니다. 거부해도 사이트와 설치 링크를 이용할 수 있고, 아래 ‘웹 분석 설정’에서 선택을 바꿀 수 있습니다. 통계는 동의한 웹 방문 표본이며 실제 설치 수와 다릅니다.</p>
-  <a href="{{ '/privacy/#web-analytics' | relative_url }}">웹 분석 안내</a>
+  <div class="analytics-copy">
+    <h2 id="analytics-consent-title">사이트 개선을 위해 방문·설치 링크 클릭을 분석할까요?</h2>
+    <p class="analytics-meta"><span>Google Analytics 사용</span><a href="{{ '/privacy/#web-analytics' | relative_url }}">자세히 보기</a></p>
+  </div>
   <div class="analytics-actions">
-    <button type="button" data-analytics-consent="granted">허용</button>
     <button type="button" data-analytics-consent="denied">거부</button>
+    <button type="button" data-analytics-consent="granted">허용</button>
   </div>
 </section>
 {% endif %}
