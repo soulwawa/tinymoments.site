@@ -1,0 +1,60 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "작은 위로" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - link "블로그" [ref=e6] [cursor=pointer]:
+          - /url: /blog/
+        - link "릴리즈 노트" [ref=e7] [cursor=pointer]:
+          - /url: /release/
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - heading "블로그" [level=1] [ref=e11]
+        - paragraph [ref=e12]: 작은 위로의 이야기, 개발 일지, 에세이
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - link [ref=e16] [cursor=pointer]:
+            - /url: /blog/from-widget-to-the-same-moment/
+            - time [ref=e17]: 2026년 10월 9일
+            - heading "사진 한 장으로 남기는 육아일기, 위젯에서 다시 보기" [level=3] [ref=e18]
+            - paragraph [ref=e19]: 사진 한 장과 짧은 기록을 남기고, 홈 화면 위젯에서 보던 사진과 문구를 작은 위로 앱에서도 이어 보는 방법을 소개합니다.
+        - listitem [ref=e20]:
+          - link [ref=e21] [cursor=pointer]:
+            - /url: /blog/every-moment-equally/
+            - time [ref=e22]: 2026년 8월 10일
+            - heading "새로운 사진보다, 모든 순간을 고르게" [level=3] [ref=e23]
+            - paragraph [ref=e24]: 공유로 들어온 사진과 오래된 기록을 같은 기준으로 보여주기로 한 이유.
+        - listitem [ref=e25]:
+          - link [ref=e26] [cursor=pointer]:
+            - /url: /blog/ivory-tone/
+            - time [ref=e27]: 2026년 7월 10일
+            - heading "보정이 아니라 온기" [level=3] [ref=e28]
+            - paragraph [ref=e29]: 사진을 고치는 기능이 아니라, 사진에 온도를 더하는 기능을 만든 이유.
+        - listitem [ref=e30]:
+          - link [ref=e31] [cursor=pointer]:
+            - /url: /blog/share-extension/
+            - time [ref=e32]: 2026년 5월 22일
+            - heading "그 사진을 본 자리에서" [level=3] [ref=e33]
+            - paragraph [ref=e34]: 사진 앱에서 작은 위로로 가는 동안에 사라지는 순간들이 있습니다. v1.2.0의 공유 기능은 그 거리를 줄이려는 작은 시도입니다.
+        - listitem [ref=e35]:
+          - link [ref=e36] [cursor=pointer]:
+            - /url: /blog/widget-and-d-day/
+            - time [ref=e37]: 2026년 5월 11일
+            - heading "함께한 날을 세는 자리" [level=3] [ref=e38]
+            - paragraph [ref=e39]: 위젯에 D-day를 더한 이유, 그리고 잠금화면에서 사진을 빼기로 한 결정에 대한 짧은 기록.
+        - listitem [ref=e40]:
+          - link [ref=e41] [cursor=pointer]:
+            - /url: /blog/why-tiny-moments/
+            - time [ref=e42]: 2026년 4월 24일
+            - heading "물티슈 한 장에서 시작된 앱" [level=3] [ref=e43]
+            - paragraph [ref=e44]: 왜 '작은 위로'를 만들게 되었는지, 어떤 부모를 떠올리며 만들었는지에 대한 이야기.
+  - contentinfo [ref=e45]:
+    - generic [ref=e46]:
+      - link "고객 지원" [ref=e47] [cursor=pointer]:
+        - /url: /support/
+      - link "개인정보 처리방침" [ref=e48] [cursor=pointer]:
+        - /url: /privacy/
+      - button "웹 분석 설정" [ref=e49] [cursor=pointer]
+      - generic [ref=e50]: © 2026 작은 위로
