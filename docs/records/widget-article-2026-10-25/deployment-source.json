@@ -1,0 +1,11 @@
+{
+  "commit": "13d61d279a4cc4801af6d92d13338966760f60d8",
+  "git_blob_oid": "c05e91ace1f465b16c973811b6800aef4a2aa79d",
+  "commit_blob_content_sha256": "74b4f7d594aee39c58075cf42690fcb73b17ef0ec7e752b0252a8534d8f182ae",
+  "committed_files": [
+    "_posts/2026-10-09-from-widget-to-the-same-moment.md"
+  ],
+  "push_exit_code": 0,
+  "pushed_at": "2026-10-25T22:12:20.025628+09:00",
+  "push_output": "To https://github.com/soulwawa/tinymoments.site.git\n   d3b4716..13d61d2  main -> main\n"
+}

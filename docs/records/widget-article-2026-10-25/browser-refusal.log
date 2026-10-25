@@ -1,0 +1,10 @@
+### Ran Playwright code
+```js
+await page.getByRole('button', { name: '거부' }).click();
+```
+### Page
+- Page URL: https://tinymoments.site/blog/from-widget-to-the-same-moment/
+- Page Title: 사진 한 장으로 남기는 육아일기, 위젯에서 다시 보기 - 작은 위로
+### Snapshot
+- [Snapshot](.playwright-cli/page-2026-10-25T13-18-20-358Z.yml)
+

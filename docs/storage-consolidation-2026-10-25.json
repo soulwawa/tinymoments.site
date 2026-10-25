@@ -1,0 +1,229 @@
+{
+  "requested_at": "2026-10-25T22:39:08.697933+09:00",
+  "reason": "사용자가 불필요한 분리 폴더와 미추적 검수 자료 보관을 지적하고 저장소 통합·Git 보존·분리 폴더 삭제·app-growth 전파를 지시했다.",
+  "legacy_root": "/Users/eee/dev/tinymoments-site-publication",
+  "legacy_root_removed": true,
+  "preserved_files": [
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/.playwright-cli/page-2026-10-25T13-13-57-825Z.yml",
+      "destination": "docs/records/widget-article-2026-10-25/.playwright-cli/page-2026-10-25T13-13-57-825Z.yml",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/.playwright-cli/page-2026-10-25T13-18-20-358Z.yml",
+      "destination": "docs/records/widget-article-2026-10-25/.playwright-cli/page-2026-10-25T13-18-20-358Z.yml",
+      "sha256": "b9a1a0d69167bc9bce0b63c70901db37764166b0307c185de537d8496b0db544",
+      "bytes": 4198
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/applied-result.json",
+      "destination": "docs/records/widget-article-2026-10-25/applied-result.json",
+      "sha256": "3d3d98732b2d311f430ecfd0b0c600241d648a6fdfb5e978b7fb2aae538ca803",
+      "bytes": 204
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/article_checks.py",
+      "destination": "docs/records/widget-article-2026-10-25/article_checks.py",
+      "sha256": "267d08d72a5dac8e8b30a1d26d48bc16f2f1cac07db0b15d06526cc296e52e61",
+      "bytes": 3807
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/baseline.json",
+      "destination": "docs/records/widget-article-2026-10-25/baseline.json",
+      "sha256": "c222f60883c771d46d1a56b38979cb5bcf010be518890c7eb2633beba446e91f",
+      "bytes": 5042
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/browser-refusal.log",
+      "destination": "docs/records/widget-article-2026-10-25/browser-refusal.log",
+      "sha256": "5cc3579e30b808e220c82a003062d56343c8529d28700e4739cb94aff781a112",
+      "bytes": 357
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/browser-setup.log",
+      "destination": "docs/records/widget-article-2026-10-25/browser-setup.log",
+      "sha256": "c0b39dbfed99fd6273c8bd1ec2404020ab9094576846dbb0e6e19c0e5e597237",
+      "bytes": 1596
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/browser-snapshot.log",
+      "destination": "docs/records/widget-article-2026-10-25/browser-snapshot.log",
+      "sha256": "af84d173c9c7533ad71f8a0ef2cec2e4e31c019d98a89c22d945eb10a6beb7ad",
+      "bytes": 4895
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/build-environment/Gemfile",
+      "destination": "docs/records/widget-article-2026-10-25/build-environment/Gemfile",
+      "sha256": "a34b3a2a51bdb1e5036ab3dc4f0034416d9535a496ed24a27fb015e106b97d24",
+      "bytes": 182
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/build-environment/Gemfile.lock",
+      "destination": "docs/records/widget-article-2026-10-25/build-environment/Gemfile.lock.snapshot",
+      "sha256": "0da10bc9c0f44181e0c2cbcafccfb170d3ac3fb10c896ef991b1111155b68bc8",
+      "bytes": 19026
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/build-environment/ruby-compat.rb",
+      "destination": "docs/records/widget-article-2026-10-25/build-environment/ruby-compat.rb",
+      "sha256": "b2b40be893678c7fe900d5af50844ad5ae22786483c79d649e90039b6cb670b3",
+      "bytes": 209
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/bundle-local.log",
+      "destination": "docs/records/widget-article-2026-10-25/bundle-local.log",
+      "sha256": "2fa0515af4a01f93944ff1c7c8db5d4d06e6d73be439933add06dbb0684e916a",
+      "bytes": 148
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/capture-public-article.js",
+      "destination": "docs/records/widget-article-2026-10-25/capture-public-article.js",
+      "sha256": "8d3080b8f574880dcebfc652d041e55c0c74ad77ad7d4d210cbbf6a3cfee5969",
+      "bytes": 3279
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/capture-public-article.log",
+      "destination": "docs/records/widget-article-2026-10-25/capture-public-article.log",
+      "sha256": "edb01ade7cb2e71d3e2621e2ba14e16bb5ed07caffd1c62c5ea8c760a8c8d8e3",
+      "bytes": 5691
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/commit-body.txt",
+      "destination": "docs/records/widget-article-2026-10-25/commit-body.txt",
+      "sha256": "cf9f1c82cb351655d80719144eccdc963a3782df6221eb192e1f4f5e3ed8e6bc",
+      "bytes": 265
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/deployment-source.json",
+      "destination": "docs/records/widget-article-2026-10-25/deployment-source.json",
+      "sha256": "2a0101c11490e7ec8f82f0a726ebef705fb38e233d24c5713e3e304586aacd31",
+      "bytes": 490
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/evidence/widget-article-desktop-1365-2026-10-25.png",
+      "destination": "docs/evidence/widget-article-desktop-1365-2026-10-25.png",
+      "sha256": "551c27fdf22f8044339ef70f884227763c710374540efd0e31fd5d673ff147cc",
+      "bytes": 190604
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/evidence/widget-article-mobile-320-2026-10-25.png",
+      "destination": "docs/evidence/widget-article-mobile-320-2026-10-25.png",
+      "sha256": "3672308abd0fb79eb69c77924b1a61c25b69461ea81587bfb3fa304d74270950",
+      "bytes": 176107
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/evidence/widget-article-mobile-375-2026-10-25.png",
+      "destination": "docs/evidence/widget-article-mobile-375-2026-10-25.png",
+      "sha256": "b5fd3db788c4a370c9709ccf98c9f4b4d0c391ea314417fbe57cd336d1917037",
+      "bytes": 175700
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/expected-public-content.json",
+      "destination": "docs/records/widget-article-2026-10-25/expected-public-content.json",
+      "sha256": "19584cec28a9ca2e0fd11826be5dac038a974bb94cdaa60826e1f4a4e5b4016d",
+      "bytes": 3282
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/inputs/approved-final-post.md",
+      "destination": "docs/records/widget-article-2026-10-25/inputs/approved-final-post.md",
+      "sha256": "74b4f7d594aee39c58075cf42690fcb73b17ef0ec7e752b0252a8534d8f182ae",
+      "bytes": 2517
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/inputs/original-post.md",
+      "destination": "docs/records/widget-article-2026-10-25/inputs/original-post.md",
+      "sha256": "6895e5be1befcb5a1f02aae22d05a65490c7e13202bc82a4a5a6625c3f860a7c",
+      "bytes": 2498
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/inputs/widget-article-2026-10-25.patch",
+      "destination": "docs/records/widget-article-2026-10-25/inputs/widget-article-2026-10-25.patch",
+      "sha256": "b41324b78f98d0d360f7108d320852511cd2504534ff2ed7155bdbd8e42962a4",
+      "bytes": 5132
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/inputs/widget-article-final-ko-2026-10-25.md",
+      "destination": "docs/records/widget-article-2026-10-25/inputs/widget-article-final-ko-2026-10-25.md",
+      "sha256": "a3f9e5b1c83d463c55e1d5ba85b5a0564ffc8cce8bb7bbb6ad2d98ce67af9e01",
+      "bytes": 6387
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/inputs/widget-article-publication-approval-2026-10-25.md",
+      "destination": "docs/records/widget-article-2026-10-25/inputs/widget-article-publication-approval-2026-10-25.md",
+      "sha256": "613944ab195bbc4b0e4834abd3475f3b69e8ee4b04e1a6e478450e5ac2a3f948",
+      "bytes": 4182
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/jekyll-build.log",
+      "destination": "docs/records/widget-article-2026-10-25/jekyll-build.log",
+      "sha256": "1edd4ec5a281189e43d970b83dc6ad86205e8e50a75856d29ca59910e8818f7d",
+      "bytes": 733
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/local-check-first-attempt.json",
+      "destination": "docs/records/widget-article-2026-10-25/local-check-first-attempt.json",
+      "sha256": "8d0acb15b3158fc424fd4578c1ef9af04245fdda10cb596f0066e25ee3dcca69",
+      "bytes": 190
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/pages-result.json",
+      "destination": "docs/records/widget-article-2026-10-25/pages-result.json",
+      "sha256": "53e8386c7b16babc7da1416c8af43867af1d187838a35152a50636853b8e5d30",
+      "bytes": 4485
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/pages-watch.log",
+      "destination": "docs/records/widget-article-2026-10-25/pages-watch.log",
+      "sha256": "bf93122ef474f3dba5d0d232ffba5f230fc2a10074972d42b988400100a52e4e",
+      "bytes": 79
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/public-browser-setup.js",
+      "destination": "docs/records/widget-article-2026-10-25/public-browser-setup.js",
+      "sha256": "f62478648e675a8214d5968eb9113fc7b9aba473159945fd5b767952073ae666",
+      "bytes": 1088
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/public-content-verification.json",
+      "destination": "docs/records/widget-article-2026-10-25/public-content-verification.json",
+      "sha256": "498efd6e176e1c245664e51c0fbc684c289e32d873a59da6090fe4a9eb3f620c",
+      "bytes": 3591
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/public-screens.json",
+      "destination": "docs/records/widget-article-2026-10-25/public-screens.json",
+      "sha256": "576f72b3beaa775a745c7035532853d6c78dfa6649a78c5e16684af72ea2c1a0",
+      "bytes": 3211
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/public.html",
+      "destination": "docs/records/widget-article-2026-10-25/public.html",
+      "sha256": "5d456dd422166878bb7b86544013b78cdc8b0b9540020202ae7961f65723b2e0",
+      "bytes": 5598
+    },
+    {
+      "historical_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/result.json",
+      "destination": "docs/records/widget-article-2026-10-25/publication-result-original.json",
+      "sha256": "b779da284c20de092f7b906c81b88602cb8ea8fbd01b4d9de5481da9e23b2fb7",
+      "bytes": 10952
+    }
+  ],
+  "excluded_and_to_be_deleted": [
+    "owned QA browser profile including generated cookie/login stores",
+    "reproducible rendered-site output",
+    "Python bytecode cache"
+  ],
+  "older_audit_limit": {
+    "original_temporary_directory": "/var/folders/qq/kzh9hddx5dv_95srvw1tyhs40000gn/T/TinyMoments-ConsentUI-20261016-3oz7ifr9",
+    "original_temporary_directory_exists_at_consolidation": false,
+    "available_evidence": "기존 검수 JSON과 세 원본 PNG는 보존되어 Git에 추가한다.",
+    "unavailable_evidence": "당시 임시 디렉토리의 추가 로그는 현재 없으며 복구·완전 보존을 주장하지 않는다."
+  },
+  "published_article_source_sha256": "74b4f7d594aee39c58075cf42690fcb73b17ef0ec7e752b0252a8534d8f182ae",
+  "site_content_or_analytics_changed": false,
+  "legacy_root_removed_at": "2026-10-25T22:41:06.585+09:00",
+  "retained_files_verified_in_git_index_before_removal": true,
+  "browser_profiles_build_output_cache_committed": false,
+  "raw_evidence_preservation": "원본 패치·HTML·로그의 공백과 개행은 해시 보존을 위해 수정하지 않았다. 이들 원본의 git diff --check 공백 경고는 보존 대상으로 기록하고, 새 안내문/현재 JSON은 별도로 검사했다."
+}

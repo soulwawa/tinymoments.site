@@ -1,0 +1,59 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "작은 위로" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - link "블로그" [ref=e6] [cursor=pointer]:
+          - /url: /blog/
+        - link "릴리즈 노트" [ref=e7] [cursor=pointer]:
+          - /url: /release/
+  - main [ref=e8]:
+    - article [ref=e9]:
+      - generic [ref=e10]:
+        - heading "사진 한 장으로 남기는 육아일기, 위젯에서 다시 보기" [level=1] [ref=e11]
+        - time [ref=e12]: 2026년 10월 9일
+      - generic [ref=e13]:
+        - paragraph [ref=e14]: 아이 사진은 많이 찍었는데 육아일기는 자꾸 밀리나요? 작은 위로에서는 오늘 남기고 싶은 사진 한 장과 짧은 글부터 기록할 수 있습니다.
+        - paragraph [ref=e15]: 남겨 둔 순간은 홈 화면 위젯에서도 다시 만납니다. 위젯에서 눈길이 머문 사진을 누르면 앱의 첫 카드에서 같은 사진과 문구를 이어 볼 수 있어요.
+        - paragraph [ref=e16]:
+          - link "App Store에서 작은 위로 살펴보기" [ref=e17] [cursor=pointer]:
+            - /url: https://apps.apple.com/kr/app/id6763057739
+        - heading "사진 한 장과 한 줄부터" [level=2] [ref=e18]
+        - paragraph [ref=e19]: 첫 산책이나 함께 웃던 저녁처럼, 오늘 기억하고 싶은 순간 하나를 골라 보세요. 사진에 “오늘은 손을 꼭 잡고 걸었다”처럼 짧은 기록을 붙이면 나중에 다시 볼 이야기가 남습니다.
+        - paragraph [ref=e20]: 작은 위로는 사진과 기록을 기기에 저장합니다. 회원가입 없이 시작할 수 있고, 위젯으로 일상 속에서 남겨 둔 순간을 다시 볼 수 있습니다.
+        - heading "이렇게 시작해 보세요" [level=2] [ref=e21]
+        - list [ref=e22]:
+          - listitem [ref=e23]:
+            - strong [ref=e24]: 사진과 짧은 기록을 남깁니다.
+            - text: 앱에서 기억하고 싶은 아이 사진 한 장을 고르고 짧은 글을 붙여 기록합니다.
+          - listitem [ref=e25]:
+            - strong [ref=e26]: 홈 화면에 작은 위로 위젯을 추가합니다.
+            - text: 앱을 열지 않은 때에도 위젯의 사진과 문구를 볼 수 있습니다.
+          - listitem [ref=e27]:
+            - strong [ref=e28]: 조금 더 보고 싶은 사진을 누릅니다.
+            - text: 그때 위젯에 표시된 사진과 문구가 앱의 첫 카드로 이어집니다.
+        - heading "위젯에서 보던 사진을 앱에서도 그대로" [level=2] [ref=e29]
+        - paragraph [ref=e30]: 작은 위로 v1.4.0부터는 홈 화면 위젯을 탭했을 때 위젯에서 보던 사진과 문구를 앱에서 이어 볼 수 있습니다. 사진을 다시 찾는 수고를 줄이기 위한 연결입니다.
+        - paragraph [ref=e31]: 앱에서 이어 본다고 저장된 글이나 날짜가 바뀌지는 않습니다. 같은 사진을 조금 더 보고, 다른 순간이 궁금하면 카드를 넘기며 기록을 다시 만나 보세요.
+        - paragraph [ref=e32]: 오늘 남기고 싶은 사진 한 장부터 시작해 보세요.
+        - paragraph [ref=e33]:
+          - link "App Store에서 작은 위로 받기" [ref=e34] [cursor=pointer]:
+            - /url: https://apps.apple.com/kr/app/id6763057739
+        - separator [ref=e35]
+        - paragraph [ref=e36]:
+          - text: 이 글은 작은 위로 제작자가 작성한 사용 안내입니다. 자세한 변경 사항은
+          - link "v1.4.0 릴리스 노트" [ref=e37] [cursor=pointer]:
+            - /url: /release/v1-4-0/
+          - text: 에서 확인할 수 있습니다.
+      - navigation [ref=e38]:
+        - link "← 블로그 목록" [ref=e39] [cursor=pointer]:
+          - /url: /blog/
+  - contentinfo [ref=e40]:
+    - generic [ref=e41]:
+      - link "고객 지원" [ref=e42] [cursor=pointer]:
+        - /url: /support/
+      - link "개인정보 처리방침" [ref=e43] [cursor=pointer]:
+        - /url: /privacy/
+      - button "웹 분석 설정" [ref=e44] [cursor=pointer]
+      - generic [ref=e45]: © 2026 작은 위로

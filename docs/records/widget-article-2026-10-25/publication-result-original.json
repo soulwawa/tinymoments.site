@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "task_id": "TM-WEB",
+  "status": "published_content_verified_public_png_reviewed",
+  "checked_at": "2026-10-25T22:22:04.475+09:00",
+  "repository": "/Users/eee/dev/tinymoments.site",
+  "branch": "main",
+  "source_file": "_posts/2026-10-09-from-widget-to-the-same-moment.md",
+  "public_url": "https://tinymoments.site/blog/from-widget-to-the-same-moment/",
+  "approval_source": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/inputs/widget-article-publication-approval-2026-10-25.md",
+  "hashes": {
+    "original_sha256": "6895e5be1befcb5a1f02aae22d05a65490c7e13202bc82a4a5a6625c3f860a7c",
+    "approved_final_sha256": "74b4f7d594aee39c58075cf42690fcb73b17ef0ec7e752b0252a8534d8f182ae",
+    "patch_sha256": "b41324b78f98d0d360f7108d320852511cd2504534ff2ed7155bdbd8e42962a4",
+    "working_source_sha256": "74b4f7d594aee39c58075cf42690fcb73b17ef0ec7e752b0252a8534d8f182ae",
+    "commit_blob_content_sha256": "74b4f7d594aee39c58075cf42690fcb73b17ef0ec7e752b0252a8534d8f182ae",
+    "git_blob_oid": "c05e91ace1f465b16c973811b6800aef4a2aa79d"
+  },
+  "commit": "13d61d279a4cc4801af6d92d13338966760f60d8",
+  "committed_files": [
+    "_posts/2026-10-09-from-widget-to-the-same-moment.md"
+  ],
+  "pushed_at": "2026-10-25T22:12:20.025628+09:00",
+  "pages": {
+    "status": "completed",
+    "conclusion": "success",
+    "head_sha": "13d61d279a4cc4801af6d92d13338966760f60d8",
+    "run_url": "https://github.com/soulwawa/tinymoments.site/actions/runs/40196545579",
+    "deployment_job_finished_at": "2026-10-25T22:12:57.000+09:00",
+    "run_last_updated_at": "2026-10-25T22:12:58.000+09:00",
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "completed_at": "2026-10-25T22:12:44.000+09:00"
+      },
+      {
+        "name": "report-build-status",
+        "conclusion": "success",
+        "completed_at": "2026-10-25T22:12:54.000+09:00"
+      },
+      {
+        "name": "deploy",
+        "conclusion": "success",
+        "completed_at": "2026-10-25T22:12:57.000+09:00"
+      }
+    ]
+  },
+  "public_observation": {
+    "http_status": 200,
+    "t0": "2026-10-25T22:15:41.778+09:00",
+    "t0_definition": "First successful HTTP observation in this task after deployment with all approved metadata/full-body checks matching. Not the exact first global/CDN publication time.",
+    "full_metadata_and_body_match": true,
+    "title": "사진 한 장으로 남기는 육아일기, 위젯에서 다시 보기 - 작은 위로",
+    "description": "사진 한 장과 짧은 기록을 남기고, 홈 화면 위젯에서 보던 사진과 문구를 작은 위로 앱에서도 이어 보는 방법을 소개합니다.",
+    "canonical": "https://tinymoments.site/blog/from-widget-to-the-same-moment/",
+    "h1": "사진 한 장으로 남기는 육아일기, 위젯에서 다시 보기",
+    "published_datetime": "2026-10-09T00:00:00+00:00",
+    "displayed_date": "2026년 10월 9일",
+    "normalized_full_body_sha256": "a8aa4fabe0392aae35c72b9a0a5643c08ea1b2f9774815664be18d5f898a53d8",
+    "anchors": [
+      {
+        "href": "https://apps.apple.com/kr/app/id6763057739",
+        "text": "App Store에서 작은 위로 살펴보기"
+      },
+      {
+        "href": "https://apps.apple.com/kr/app/id6763057739",
+        "text": "App Store에서 작은 위로 받기"
+      },
+      {
+        "href": "/release/v1-4-0/",
+        "text": "v1.4.0 릴리스 노트"
+      }
+    ],
+    "ordered_items": 3,
+    "strong_texts": [
+      "사진과 짧은 기록을 남깁니다.",
+      "홈 화면에 작은 위로 위젯을 추가합니다.",
+      "조금 더 보고 싶은 사진을 누릅니다."
+    ]
+  },
+  "screenshots": [
+    {
+      "name": "desktop-1365",
+      "width": 1365,
+      "height": 900,
+      "path": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/evidence/widget-article-desktop-1365-2026-10-25.png",
+      "url": "https://tinymoments.site/blog/from-widget-to-the-same-moment/",
+      "observed_at": "2026-10-25T22:18:20.880+09:00",
+      "fullPage": true,
+      "documentWidth": 1365,
+      "viewportWidth": 1365,
+      "horizontalOverflow": false,
+      "clippedTargets": [],
+      "orderedItems": 3,
+      "listStyle": "decimal",
+      "strongWeights": [
+        "600",
+        "600",
+        "600"
+      ],
+      "ctas": [
+        {
+          "text": "App Store에서 작은 위로 살펴보기",
+          "href": "https://apps.apple.com/kr/app/id6763057739"
+        },
+        {
+          "text": "App Store에서 작은 위로 받기",
+          "href": "https://apps.apple.com/kr/app/id6763057739"
+        }
+      ],
+      "articleImages": 0,
+      "bodyFontSize": "16px",
+      "pageHeight": 1562,
+      "sha256": "551c27fdf22f8044339ef70f884227763c710374540efd0e31fd5d673ff147cc",
+      "original_png": true,
+      "direct_visual_reviewed": true
+    },
+    {
+      "name": "mobile-375",
+      "width": 375,
+      "height": 812,
+      "path": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/evidence/widget-article-mobile-375-2026-10-25.png",
+      "url": "https://tinymoments.site/blog/from-widget-to-the-same-moment/",
+      "observed_at": "2026-10-25T22:18:21.108+09:00",
+      "fullPage": true,
+      "documentWidth": 375,
+      "viewportWidth": 375,
+      "horizontalOverflow": false,
+      "clippedTargets": [],
+      "orderedItems": 3,
+      "listStyle": "decimal",
+      "strongWeights": [
+        "600",
+        "600",
+        "600"
+      ],
+      "ctas": [
+        {
+          "text": "App Store에서 작은 위로 살펴보기",
+          "href": "https://apps.apple.com/kr/app/id6763057739"
+        },
+        {
+          "text": "App Store에서 작은 위로 받기",
+          "href": "https://apps.apple.com/kr/app/id6763057739"
+        }
+      ],
+      "articleImages": 0,
+      "bodyFontSize": "16px",
+      "pageHeight": 2019,
+      "sha256": "b5fd3db788c4a370c9709ccf98c9f4b4d0c391ea314417fbe57cd336d1917037",
+      "original_png": true,
+      "direct_visual_reviewed": true
+    },
+    {
+      "name": "mobile-320",
+      "width": 320,
+      "height": 700,
+      "path": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/evidence/widget-article-mobile-320-2026-10-25.png",
+      "url": "https://tinymoments.site/blog/from-widget-to-the-same-moment/",
+      "observed_at": "2026-10-25T22:18:21.349+09:00",
+      "fullPage": true,
+      "documentWidth": 320,
+      "viewportWidth": 320,
+      "horizontalOverflow": false,
+      "clippedTargets": [],
+      "orderedItems": 3,
+      "listStyle": "decimal",
+      "strongWeights": [
+        "600",
+        "600",
+        "600"
+      ],
+      "ctas": [
+        {
+          "text": "App Store에서 작은 위로 살펴보기",
+          "href": "https://apps.apple.com/kr/app/id6763057739"
+        },
+        {
+          "text": "App Store에서 작은 위로 받기",
+          "href": "https://apps.apple.com/kr/app/id6763057739"
+        }
+      ],
+      "articleImages": 0,
+      "bodyFontSize": "16px",
+      "pageHeight": 2264,
+      "sha256": "3672308abd0fb79eb69c77924b1a61c25b69461ea81587bfb3fa304d74270950",
+      "original_png": true,
+      "direct_visual_reviewed": true,
+      "visual_observation": "H1 마지막 음절 기가 세 번째 줄에 단독으로 남는다. 문자 손실·가로 잘림은 없고, 승인 원고/공통 CSS는 임의 변경하지 않았다."
+    }
+  ],
+  "visual_review": {
+    "actual_public_url": true,
+    "component_preview_not_used_as_public_proof": true,
+    "h1_body_numbered_list_emphasis_ctas_reviewed": true,
+    "horizontal_or_target_clipping": false,
+    "minor_observation": "320px H1 마지막 음절 기가 단독 줄에 남음. 내용은 모두 읽을 수 있으나 줄바꿈 개선 여지가 있다. 고정 원고/해시 및 한 파일 범위를 유지했으며 CSS/원고 추가 교정은 실행하지 않았다.",
+    "unilateral_final_source_change": false
+  },
+  "preserved": {
+    "url_and_2026_10_09_date": true,
+    "layout_post_categories_blog": true,
+    "two_exact_app_store_ctas": true,
+    "release_link": true,
+    "images_unchanged": true,
+    "all_other_baseline_files_unchanged": true,
+    "prior_untracked_evidence_files_preserved": 4,
+    "analytics_consent_site_config_unchanged": true,
+    "other_repositories_modified": false,
+    "app_store_ppo_or_app_qa_repeated": false
+  },
+  "qa_safety": {
+    "owned_persistent_browser_profile": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/browser-profile",
+    "user_browser_or_accounts_used": false,
+    "google_requests_blocked_by_guard": true,
+    "google_request_attempts": 0,
+    "store_navigation_attempts": 0,
+    "live_consent_grants": 0,
+    "qa_consent_choice": "denied through UI in owned fresh profile",
+    "debugview_or_account_reinspection": false
+  },
+  "local_verification": {
+    "known_compatibility_environment_reused": true,
+    "source_and_inputs_hashes_match": true,
+    "rendered_metadata_full_body_ctas_date_url_checks_passed": true,
+    "default_ruby_environment_changed": false,
+    "verification_helper_first_attempt_issue": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/local-check-first-attempt.json"
+  },
+  "recovery": {
+    "permanent_workspace": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article",
+    "original_source_copy": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/inputs/original-post.md",
+    "approved_final_copy": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/inputs/approved-final-post.md",
+    "fixed_patch_copy": "/Users/eee/dev/tinymoments-site-publication/2026-10-25-widget-article/inputs/widget-article-2026-10-25.patch",
+    "source_is_committed_and_pushed": true,
+    "uncommitted_article_work": false,
+    "rollback_commit": "13d61d279a4cc4801af6d92d13338966760f60d8",
+    "rollback_procedure": "Review subsequent changes, revert only this single-file article commit, push main through existing Pages, and verify the restored article. Do not revert other release posts, UI, analytics or policy files.",
+    "rollback_executed": false
+  },
+  "limits": [
+    "320px title has a final single-syllable line; root visual intake may consider a separately scoped typography adjustment.",
+    "Desktop Chrome at the requested viewport widths; physical iOS/Safari, every zoom/text-size combination and every CDN/cache not verified.",
+    "Exact first worldwide public time unknown; deployment job time and observed T0 are separate.",
+    "No real App Store navigation/install or new GA validation events; publication/clickability is not evidence of install growth.",
+    "Known default Ruby 4/Jekyll compatibility limitation remains; the existing workaround and real Pages success are distinguished."
+  ],
+  "evidence_and_record_are_local_not_part_of_the_single_file_commit": true,
+  "common_growth_backlog_plans_metrics_schedules_changed": false
+}

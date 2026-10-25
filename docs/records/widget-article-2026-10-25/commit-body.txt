@@ -1,0 +1,5 @@
+docs: 위젯 글에 사진 기록 시작 안내와 설치 링크 정리
+
+승인된 TM-WEB 최종 원고를 기존 글 한 편에 적용합니다. 기존 URL·게시일·릴리스 링크·설치 대상은 유지합니다.
+
+Co-Authored-By: Codex <noreply@openai.com>

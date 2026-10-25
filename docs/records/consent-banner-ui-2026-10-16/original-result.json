@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "task_id": "TM-CONSENT-UI",
+  "status": "published_and_public_ui_verified",
+  "checked_at": "2026-10-16T20:07:51.448+09:00",
+  "domain": "tinymoments.site",
+  "public_homepage": "https://tinymoments.site/",
+  "repository": "/Users/eee/dev/tinymoments.site",
+  "approved_scope": "/Users/eee/dev/app-growth/research/consent-banner-three-sites-2026-10-16.md",
+  "baseline_head": "2c0a9418b014544877d14f790bfeeed1b7f688fd",
+  "worktree_initially_clean": true,
+  "changed_files": [
+    "_includes/footer.html",
+    "assets/css/main.css"
+  ],
+  "commit": "d3b4716d4b86391323e9e6edaac28067ccd21a39",
+  "committed_files": [
+    "_includes/footer.html",
+    "assets/css/main.css"
+  ],
+  "pushed_at": "2026-10-16T19:59:03.526577+09:00",
+  "pages": {
+    "conclusion": "success",
+    "headSha": "d3b4716d4b86391323e9e6edaac28067ccd21a39",
+    "status": "completed",
+    "updatedAt": "2026-10-16T19:59:50.000+09:00",
+    "url": "https://github.com/soulwawa/tinymoments.site/actions/runs/38890786155"
+  },
+  "ui": {
+    "copy": "사이트 개선을 위해 방문·설치 링크 클릭을 분석할까요?",
+    "helper": "Google Analytics 사용",
+    "details": "자세히 보기",
+    "details_href": "/privacy/#web-analytics",
+    "choice_order": [
+      "거부",
+      "허용"
+    ],
+    "brand_font_and_colors_preserved": true,
+    "non_modal": true
+  },
+  "local_verification": {
+    "existing_analytics_mock_tests_passed": 9,
+    "jekyll_html_pages_checked": 17,
+    "known_temporary_build_environment_reused": true,
+    "environment_reinvestigation_or_installation": false,
+    "id_data_aria_references_preserved": true
+  },
+  "unchanged_proof": {
+    "all_other_tracked_files_match_baseline": true,
+    "unchanged_file_sha256": {
+      "assets/js/analytics.js": "8284968d47d843b991ee05122960f2fa1a2166d48a201e35d271800a6b1b793b",
+      "_config.yml": "7de0d2ad4518aebbb9c12cd8b6ff0b738607c257f73cd2f3ca1430f91f8d0dae",
+      "_includes/analytics.html": "c4973b255e1428718713304175ca473977d30dde1c9fdf4d9c6ccae8046b77bb",
+      "privacy/index.html": "e231ec0e1136c11dd86beb05fb2c8d1798b9686969cd7b9e0731c5a48cc24e7f",
+      "tests/analytics.test.cjs": "e2ad62a7030072d8be015d3e8c0718f7ec650170cead998a8ef476490371ac6a",
+      "tiny-moments.json": "97dff0789be237677eba87508baa43f7a5ef45cb9b6b05d563d910776e6cd623",
+      "tiny-moments-dev.json": "97dff0789be237677eba87508baa43f7a5ef45cb9b6b05d563d910776e6cd623",
+      "tiny-moments-testflight.json": "97dff0789be237677eba87508baa43f7a5ef45cb9b6b05d563d910776e6cd623"
+    },
+    "consent_key": "tinymoments.analytics-consent.v1",
+    "measurement_id_and_app_store_target": "unchanged, byte-identical config and analytics.js",
+    "saved_existing_choices": "unchanged code; public QA used only a fresh owned browser and saved a refusal"
+  },
+  "screenshots": [
+    {
+      "name": "desktop-1365",
+      "width": 1365,
+      "height": 900,
+      "path": "/Users/eee/dev/tinymoments.site/docs/evidence/consent-banner-desktop-1365-2026-10-16.png",
+      "url": "https://tinymoments.site/",
+      "observed_at": "2026-10-16T20:03:32.392+09:00",
+      "banner": {
+        "top": 805,
+        "bottom": 884,
+        "left": 330.5,
+        "right": 1034.5,
+        "width": 704,
+        "height": 79
+      },
+      "buttons": [
+        {
+          "text": "거부",
+          "rect": {
+            "top": 822.5,
+            "bottom": 866.5,
+            "left": 881.5,
+            "right": 945.5,
+            "width": 64,
+            "height": 44
+          },
+          "background": "rgb(250, 248, 242)",
+          "color": "rgb(61, 48, 40)",
+          "font": "14px / 21px -apple-system, \"system-ui\", \"Apple SD Gothic Neo\", sans-serif"
+        },
+        {
+          "text": "허용",
+          "rect": {
+            "top": 822.5,
+            "bottom": 866.5,
+            "left": 953.5,
+            "right": 1017.5,
+            "width": 64,
+            "height": 44
+          },
+          "background": "rgb(250, 248, 242)",
+          "color": "rgb(61, 48, 40)",
+          "font": "14px / 21px -apple-system, \"system-ui\", \"Apple SD Gothic Neo\", sans-serif"
+        }
+      ],
+      "bodyPaddingBottom": "160px",
+      "noHorizontalOverflow": true,
+      "accessibleTargets": [
+        {
+          "text": "App Store에서 다운로드",
+          "hitTest": true,
+          "rect": {
+            "top": 327.8816833496094,
+            "bottom": 380.6629333496094,
+            "left": 563.125,
+            "right": 801.859375,
+            "width": 238.734375,
+            "height": 52.78125
+          }
+        },
+        {
+          "text": "고객 지원",
+          "hitTest": true,
+          "rect": {
+            "top": 693.59375,
+            "bottom": 716.34375,
+            "left": 487.390625,
+            "right": 538.15625,
+            "width": 50.765625,
+            "height": 22.75
+          }
+        },
+        {
+          "text": "개인정보 처리방침",
+          "hitTest": true,
+          "rect": {
+            "top": 693.59375,
+            "bottom": 716.34375,
+            "left": 562.15625,
+            "right": 659.984375,
+            "width": 97.828125,
+            "height": 22.75
+          }
+        },
+        {
+          "text": "웹 분석 설정",
+          "hitTest": true,
+          "rect": {
+            "top": 694.09375,
+            "bottom": 715.84375,
+            "left": 683.984375,
+            "right": 750.21875,
+            "width": 66.234375,
+            "height": 21.75
+          }
+        }
+      ],
+      "footerAboveBanner": true,
+      "keyboardFocusVisible": true,
+      "sha256": "19c1f59a3ce3ecbfe963568b98311cf8b1c40e3393441a113a53d75b607c87ee",
+      "original_viewport_png": true,
+      "direct_visual_reviewed": true,
+      "capture_scroll": "actual public homepage, document end",
+      "keyboard_focus_note": "거부 버튼의 키보드 포커스 표시이며 기본 선택/차등 스타일이 아님"
+    },
+    {
+      "name": "mobile-375",
+      "width": 375,
+      "height": 812,
+      "path": "/Users/eee/dev/tinymoments.site/docs/evidence/consent-banner-mobile-375-2026-10-16.png",
+      "url": "https://tinymoments.site/",
+      "observed_at": "2026-10-16T20:03:32.609+09:00",
+      "banner": {
+        "top": 669,
+        "bottom": 800,
+        "left": 12,
+        "right": 363,
+        "width": 351,
+        "height": 131
+      },
+      "buttons": [
+        {
+          "text": "거부",
+          "rect": {
+            "top": 743,
+            "bottom": 787,
+            "left": 214,
+            "right": 278,
+            "width": 64,
+            "height": 44
+          },
+          "background": "rgb(250, 248, 242)",
+          "color": "rgb(61, 48, 40)",
+          "font": "14px / 21px -apple-system, \"system-ui\", \"Apple SD Gothic Neo\", sans-serif"
+        },
+        {
+          "text": "허용",
+          "rect": {
+            "top": 743,
+            "bottom": 787,
+            "left": 286,
+            "right": 350,
+            "width": 64,
+            "height": 44
+          },
+          "background": "rgb(250, 248, 242)",
+          "color": "rgb(61, 48, 40)",
+          "font": "14px / 21px -apple-system, \"system-ui\", \"Apple SD Gothic Neo\", sans-serif"
+        }
+      ],
+      "bodyPaddingBottom": "208px",
+      "noHorizontalOverflow": true,
+      "accessibleTargets": [
+        {
+          "text": "App Store에서 다운로드",
+          "hitTest": true,
+          "rect": {
+            "top": 182.46875,
+            "bottom": 235.25,
+            "left": 68.125,
+            "right": 306.859375,
+            "width": 238.734375,
+            "height": 52.78125
+          }
+        },
+        {
+          "text": "고객 지원",
+          "hitTest": true,
+          "rect": {
+            "top": 511.59375,
+            "bottom": 534.34375,
+            "left": 56.078125,
+            "right": 106.84375,
+            "width": 50.765625,
+            "height": 22.75
+          }
+        },
+        {
+          "text": "개인정보 처리방침",
+          "hitTest": true,
+          "rect": {
+            "top": 511.59375,
+            "bottom": 534.34375,
+            "left": 130.84375,
+            "right": 228.671875,
+            "width": 97.828125,
+            "height": 22.75
+          }
+        },
+        {
+          "text": "웹 분석 설정",
+          "hitTest": true,
+          "rect": {
+            "top": 512.09375,
+            "bottom": 533.84375,
+            "left": 252.671875,
+            "right": 318.90625,
+            "width": 66.234375,
+            "height": 21.75
+          }
+        }
+      ],
+      "footerAboveBanner": true,
+      "keyboardFocusVisible": true,
+      "sha256": "ac7c14fffd4b53f49bd725c85bc7e7d7037f089b1fdc7afe7b60ec6084303773",
+      "original_viewport_png": true,
+      "direct_visual_reviewed": true,
+      "capture_scroll": "actual public homepage, document end",
+      "keyboard_focus_note": "거부 버튼의 키보드 포커스 표시이며 기본 선택/차등 스타일이 아님"
+    },
+    {
+      "name": "mobile-320",
+      "width": 320,
+      "height": 700,
+      "path": "/Users/eee/dev/tinymoments.site/docs/evidence/consent-banner-mobile-320-2026-10-16.png",
+      "url": "https://tinymoments.site/",
+      "observed_at": "2026-10-16T20:03:32.810+09:00",
+      "banner": {
+        "top": 536,
+        "bottom": 688,
+        "left": 12,
+        "right": 308,
+        "width": 296,
+        "height": 152
+      },
+      "buttons": [
+        {
+          "text": "거부",
+          "rect": {
+            "top": 631,
+            "bottom": 675,
+            "left": 159,
+            "right": 223,
+            "width": 64,
+            "height": 44
+          },
+          "background": "rgb(250, 248, 242)",
+          "color": "rgb(61, 48, 40)",
+          "font": "14px / 21px -apple-system, \"system-ui\", \"Apple SD Gothic Neo\", sans-serif"
+        },
+        {
+          "text": "허용",
+          "rect": {
+            "top": 631,
+            "bottom": 675,
+            "left": 231,
+            "right": 295,
+            "width": 64,
+            "height": 44
+          },
+          "background": "rgb(250, 248, 242)",
+          "color": "rgb(61, 48, 40)",
+          "font": "14px / 21px -apple-system, \"system-ui\", \"Apple SD Gothic Neo\", sans-serif"
+        }
+      ],
+      "bodyPaddingBottom": "208px",
+      "noHorizontalOverflow": true,
+      "accessibleTargets": [
+        {
+          "text": "App Store에서 다운로드",
+          "hitTest": true,
+          "rect": {
+            "top": 126.46875,
+            "bottom": 179.25,
+            "left": 40.625,
+            "right": 279.359375,
+            "width": 238.734375,
+            "height": 52.78125
+          }
+        },
+        {
+          "text": "고객 지원",
+          "hitTest": true,
+          "rect": {
+            "top": 399.59375,
+            "bottom": 422.34375,
+            "left": 28.578125,
+            "right": 79.34375,
+            "width": 50.765625,
+            "height": 22.75
+          }
+        },
+        {
+          "text": "개인정보 처리방침",
+          "hitTest": true,
+          "rect": {
+            "top": 399.59375,
+            "bottom": 422.34375,
+            "left": 103.34375,
+            "right": 201.171875,
+            "width": 97.828125,
+            "height": 22.75
+          }
+        },
+        {
+          "text": "웹 분석 설정",
+          "hitTest": true,
+          "rect": {
+            "top": 400.09375,
+            "bottom": 421.84375,
+            "left": 225.171875,
+            "right": 291.40625,
+            "width": 66.234375,
+            "height": 21.75
+          }
+        }
+      ],
+      "footerAboveBanner": true,
+      "keyboardFocusVisible": true,
+      "sha256": "ec324a39022c886411548df1da0a2e9684b8f24b3ccf8a288083bc54758da15e",
+      "original_viewport_png": true,
+      "direct_visual_reviewed": true,
+      "capture_scroll": "actual public homepage, document end",
+      "keyboard_focus_note": "거부 버튼의 키보드 포커스 표시이며 기본 선택/차등 스타일이 아님"
+    }
+  ],
+  "public_behavior": {
+    "actualPublicRefusal": true,
+    "refusalSurvivesReload": true,
+    "settingsReopen": true,
+    "ariaExpandedPreserved": true,
+    "detailsUrl": "https://tinymoments.site/privacy/#web-analytics",
+    "detailsHeading": "웹사이트 방문 분석",
+    "choiceAfterDetails": "denied",
+    "liveGrantClicked": false,
+    "liveAnalyticsValidationRepeated": false,
+    "googleRequests": 0,
+    "observed_at": "2026-10-16T20:05:18.321+09:00",
+    "install_footer_access_method": "actual public viewport PNG review, browser trial click and center-point hit test for App Store/support/privacy/settings at all three widths",
+    "live_app_store_navigation_or_install_not_run": true,
+    "grant_and_withdrawal_proof": "unchanged analytics.js plus existing local mock tests; not repeated on production"
+  },
+  "analytics_safety": {
+    "new_live_grants": 0,
+    "google_request_attempts": 0,
+    "new_ga_validation_events": 0,
+    "account_or_debugview_reinspection": false,
+    "own_qa_browser_only": true
+  },
+  "limitations": [
+    "Desktop Chrome viewport checks; physical mobile devices, Safari and every text/zoom setting not checked.",
+    "Growth effect and consent cohort changes are not evaluated; do not attribute future sample differences directly to visitor growth.",
+    "Known default Ruby 4/Jekyll compatibility limitation remains; reused the previously documented temporary render environment and verified successful real Pages deployment."
+  ],
+  "rollback": {
+    "target_commit": "d3b4716d4b86391323e9e6edaac28067ccd21a39",
+    "procedure": "Review subsequent changes, revert only this UI commit, then push main through existing Pages deployment. Do not remove analytics settings, keys or stored choices.",
+    "executed": false
+  },
+  "evidence_tracking": "Only the two approved UI files were committed. This JSON and the three original PNGs are saved locally as untracked evidence.",
+  "audit_directory": "/var/folders/qq/kzh9hddx5dv_95srvw1tyhs40000gn/T/TinyMoments-ConsentUI-20261016-3oz7ifr9",
+  "other_repositories_or_common_growth_documents_modified": false
+}

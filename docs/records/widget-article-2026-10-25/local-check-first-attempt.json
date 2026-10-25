@@ -1,0 +1,4 @@
+{
+  "verification_helper_error": "HTMLParser handled a self-closing hr end as a content-container end; corrected void-element handling.",
+  "approved_source_changed_for_this_error": false
+}
