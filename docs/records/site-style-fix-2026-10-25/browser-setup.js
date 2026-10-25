@@ -1,0 +1,12 @@
+async (page) => {
+  page.__tmStyleGoogleAttempts=0;page.__tmStyleStoreAttempts=0;
+  await page.context().route('**/*',route=>{
+    const host=new URL(route.request().url()).hostname;
+    if(/(^|\.)(googletagmanager\.com|google-analytics\.com|analytics\.google\.com)$/.test(host)){page.__tmStyleGoogleAttempts++;return route.abort();}
+    if(host==='apps.apple.com'){page.__tmStyleStoreAttempts++;return route.abort();}
+    return route.continue();
+  });
+  await page.setViewportSize({width:1365,height:900});
+  await page.goto('https://tinymoments.site/blog/',{waitUntil:'networkidle'});
+  return {title:await page.title(),beforeBorders:await page.locator('.post-list>li').evaluateAll(items=>items.map(li=>({li:getComputedStyle(li).borderBottomWidth,link:getComputedStyle(li.querySelector('a')).borderBottomWidth}))),googleRequests:page.__tmStyleGoogleAttempts};
+}

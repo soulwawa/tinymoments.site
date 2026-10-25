@@ -196,7 +196,13 @@
     "h1_body_numbered_list_emphasis_ctas_reviewed": true,
     "horizontal_or_target_clipping": false,
     "minor_observation": "320px H1 마지막 음절 기가 단독 줄에 남음. 내용은 모두 읽을 수 있으나 줄바꿈 개선 여지가 있다. 고정 원고/해시 및 한 파일 범위를 유지했으며 CSS/원고 추가 교정은 실행하지 않았다.",
-    "unilateral_final_source_change": false
+    "unilateral_final_source_change": false,
+    "follow_up_style_fix": {
+      "resolved_title_word_split": true,
+      "source_commit": "f19cea3d9d80060efb205324b6bf945526347b89",
+      "report": "docs/site-style-fix-2026-10-25.json",
+      "initial_observation_preserved": true
+    }
   },
   "preserved": {
     "url_and_2026_10_09_date": true,
@@ -240,7 +246,7 @@
     "rollback_executed": false
   },
   "limits": [
-    "320px title has a final single-syllable line; root visual intake may consider a separately scoped typography adjustment.",
+    "Initial 320px H1 single-syllable wrap was resolved by f19cea3d9d80060efb205324b6bf945526347b89; see docs/site-style-fix-2026-10-25.json.",
     "Desktop Chrome at the requested viewport widths; physical iOS/Safari, every zoom/text-size combination and every CDN/cache not verified.",
     "Exact first worldwide public time unknown; deployment job time and observed T0 are separate.",
     "No real App Store navigation/install or new GA validation events; publication/clickability is not evidence of install growth.",

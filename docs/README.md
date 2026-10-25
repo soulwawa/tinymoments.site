@@ -6,6 +6,7 @@
 - [동의 배너 검수 결과](consent-banner-ui-2026-10-16.json)와 `evidence/consent-banner-*.png`
 - [위젯 글 게시 검수 결과](widget-article-publication-2026-10-25.json)와 `evidence/widget-article-*.png`
 - [위젯 글 원고·패치·검증 원본](records/widget-article-2026-10-25/)
+- [목록 이중 구분선·제목 줄바꿈 수정 검수](site-style-fix-2026-10-25.json)
 - [자료 이관 목록·해시·제외 범위](storage-consolidation-2026-10-25.json)
 
 최종 원고·승인 복사본·복구 패치·검수 JSON·원본 PNG·검증 코드/로그를 보존한다. 브라우저 프로필, 쿠키/로그인 DB, 재생성 가능한 렌더링 산출물과 캐시는 Git에 넣지 않는다. 별도 최상위 게시 작업 폴더는 유지하지 않는다.

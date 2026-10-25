@@ -1,0 +1,11 @@
+Configuration file: /Users/eee/dev/tinymoments.site/_config.yml
+            Source: /Users/eee/dev/tinymoments.site
+       Destination: /Users/eee/dev/tinymoments.site/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.402 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+
+/opt/homebrew/lib/ruby/gems/4.0.0/gems/jekyll-3.9.0/lib/jekyll/log_adapter.rb:43: warning: Logger not initialized properly
+/opt/homebrew/lib/ruby/gems/4.0.0/gems/jekyll-3.9.0/lib/jekyll/stevenson.rb:5: info: Jekyll::Stevenson#initialize: does not call super probably
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem

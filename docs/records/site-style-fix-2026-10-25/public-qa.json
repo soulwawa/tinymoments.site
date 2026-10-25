@@ -1,0 +1,239 @@
+{
+  "screenshots": [
+    {
+      "kind": "blog",
+      "url": "https://tinymoments.site/blog/",
+      "name": "desktop-1365",
+      "width": 1365,
+      "height": 900,
+      "path": "/Users/eee/dev/tinymoments.site/docs/evidence/blog-list-divider-after-desktop-1365-2026-10-25.png",
+      "observed_at": "2026-10-25T13:55:38.271Z",
+      "noHorizontalOverflow": true,
+      "borders": [
+        {
+          "item": "1px",
+          "link": "0px"
+        },
+        {
+          "item": "1px",
+          "link": "0px"
+        },
+        {
+          "item": "1px",
+          "link": "0px"
+        },
+        {
+          "item": "1px",
+          "link": "0px"
+        },
+        {
+          "item": "1px",
+          "link": "0px"
+        },
+        {
+          "item": "0px",
+          "link": "0px"
+        }
+      ]
+    },
+    {
+      "kind": "blog",
+      "url": "https://tinymoments.site/blog/",
+      "name": "mobile-375",
+      "width": 375,
+      "height": 812,
+      "path": "/Users/eee/dev/tinymoments.site/docs/evidence/blog-list-divider-after-mobile-375-2026-10-25.png",
+      "observed_at": "2026-10-25T13:55:38.894Z",
+      "noHorizontalOverflow": true,
+      "borders": [
+        {
+          "item": "1px",
+          "link": "0px"
+        },
+        {
+          "item": "1px",
+          "link": "0px"
+        },
+        {
+          "item": "1px",
+          "link": "0px"
+        },
+        {
+          "item": "1px",
+          "link": "0px"
+        },
+        {
+          "item": "1px",
+          "link": "0px"
+        },
+        {
+          "item": "0px",
+          "link": "0px"
+        }
+      ]
+    },
+    {
+      "kind": "blog",
+      "url": "https://tinymoments.site/blog/",
+      "name": "mobile-320",
+      "width": 320,
+      "height": 700,
+      "path": "/Users/eee/dev/tinymoments.site/docs/evidence/blog-list-divider-after-mobile-320-2026-10-25.png",
+      "observed_at": "2026-10-25T13:55:39.529Z",
+      "noHorizontalOverflow": true,
+      "borders": [
+        {
+          "item": "1px",
+          "link": "0px"
+        },
+        {
+          "item": "1px",
+          "link": "0px"
+        },
+        {
+          "item": "1px",
+          "link": "0px"
+        },
+        {
+          "item": "1px",
+          "link": "0px"
+        },
+        {
+          "item": "1px",
+          "link": "0px"
+        },
+        {
+          "item": "0px",
+          "link": "0px"
+        }
+      ]
+    },
+    {
+      "kind": "article",
+      "url": "https://tinymoments.site/blog/from-widget-to-the-same-moment/",
+      "name": "desktop-1365",
+      "width": 1365,
+      "height": 900,
+      "path": "/Users/eee/dev/tinymoments.site/docs/evidence/widget-title-wrap-after-desktop-1365-2026-10-25.png",
+      "observed_at": "2026-10-25T13:55:40.347Z",
+      "noHorizontalOverflow": true,
+      "wordBreak": "keep-all",
+      "title": "사진 한 장으로 남기는 육아일기, 위젯에서 다시 보기",
+      "titleLines": [
+        "사진 한 장으로 남기는 육아일기, 위젯에서 다시 보기"
+      ],
+      "wordRows": [
+        {
+          "word": "육아일기",
+          "rows": 1
+        },
+        {
+          "word": "보기",
+          "rows": 1
+        }
+      ],
+      "inlineLinkBorders": [
+        "1px",
+        "1px",
+        "1px"
+      ]
+    },
+    {
+      "kind": "article",
+      "url": "https://tinymoments.site/blog/from-widget-to-the-same-moment/",
+      "name": "mobile-375",
+      "width": 375,
+      "height": 812,
+      "path": "/Users/eee/dev/tinymoments.site/docs/evidence/widget-title-wrap-after-mobile-375-2026-10-25.png",
+      "observed_at": "2026-10-25T13:55:40.955Z",
+      "noHorizontalOverflow": true,
+      "wordBreak": "keep-all",
+      "title": "사진 한 장으로 남기는 육아일기, 위젯에서 다시 보기",
+      "titleLines": [
+        "사진 한 장으로 남기는",
+        "육아일기, 위젯에서 다시 보기"
+      ],
+      "wordRows": [
+        {
+          "word": "육아일기",
+          "rows": 1
+        },
+        {
+          "word": "보기",
+          "rows": 1
+        }
+      ],
+      "inlineLinkBorders": [
+        "1px",
+        "1px",
+        "1px"
+      ]
+    },
+    {
+      "kind": "article",
+      "url": "https://tinymoments.site/blog/from-widget-to-the-same-moment/",
+      "name": "mobile-320",
+      "width": 320,
+      "height": 700,
+      "path": "/Users/eee/dev/tinymoments.site/docs/evidence/widget-title-wrap-after-mobile-320-2026-10-25.png",
+      "observed_at": "2026-10-25T13:55:41.566Z",
+      "noHorizontalOverflow": true,
+      "wordBreak": "keep-all",
+      "title": "사진 한 장으로 남기는 육아일기, 위젯에서 다시 보기",
+      "titleLines": [
+        "사진 한 장으로 남기는",
+        "육아일기, 위젯에서 다시",
+        "보기"
+      ],
+      "wordRows": [
+        {
+          "word": "육아일기",
+          "rows": 1
+        },
+        {
+          "word": "보기",
+          "rows": 1
+        }
+      ],
+      "inlineLinkBorders": [
+        "1px",
+        "1px",
+        "1px"
+      ]
+    }
+  ],
+  "releaseBorders": [
+    {
+      "item": "1px",
+      "link": "0px"
+    },
+    {
+      "item": "1px",
+      "link": "0px"
+    },
+    {
+      "item": "1px",
+      "link": "0px"
+    },
+    {
+      "item": "1px",
+      "link": "0px"
+    },
+    {
+      "item": "1px",
+      "link": "0px"
+    },
+    {
+      "item": "0px",
+      "link": "0px"
+    }
+  ],
+  "keyboardFocus": {
+    "visible": true,
+    "style": "auto",
+    "width": "1px"
+  },
+  "googleRequests": 0,
+  "storeNavigations": 0,
+  "liveGrantClicked": false
+}

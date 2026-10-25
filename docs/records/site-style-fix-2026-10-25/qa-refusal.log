@@ -1,0 +1,10 @@
+### Ran Playwright code
+```js
+await page.getByRole('button', { name: '거부' }).click();
+```
+### Page
+- Page URL: https://tinymoments.site/blog/
+- Page Title: 블로그 - 작은 위로
+### Snapshot
+- [Snapshot](../.playwright-cli/page-2026-10-25T13-52-07-343Z.yml)
+

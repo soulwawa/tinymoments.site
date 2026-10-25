@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "task": "blog divider and article title wrap correction",
+  "checked_at": "2026-10-25T22:59:05.185+09:00",
+  "source_commit": "f19cea3d9d80060efb205324b6bf945526347b89",
+  "changed_source_files": [
+    "assets/css/main.css"
+  ],
+  "cause": "post-list li의 구분선과 page-content a의 링크 아래 테두리가 겹쳐 각 항목 아래 선이 두 개 표시되었다.",
+  "fixes": [
+    "목록 안의 링크 테두리만 제거하여 항목 구분선 하나를 유지",
+    "글 H1을 단어 단위로 줄바꿈하고 긴 토큰은 넘치지 않도록 처리"
+  ],
+  "before_borders": [
+    {
+      "li": "1px",
+      "link": "1px"
+    },
+    {
+      "li": "1px",
+      "link": "1px"
+    },
+    {
+      "li": "1px",
+      "link": "1px"
+    },
+    {
+      "li": "1px",
+      "link": "1px"
+    },
+    {
+      "li": "1px",
+      "link": "1px"
+    },
+    {
+      "li": "0px",
+      "link": "1px"
+    }
+  ],
+  "pages": {
+    "conclusion": "success",
+    "headSha": "f19cea3d9d80060efb205324b6bf945526347b89",
+    "status": "completed",
+    "updatedAt": "2026-10-25T22:52:53.000+09:00",
+    "url": "https://github.com/soulwawa/tinymoments.site/actions/runs/40199585882"
+  },
+  "public_css": {
+    "http_status": 200,
+    "css_sha256": "8e3399c99698601c93e0d2c1bb29125a44c4b35622ba102f70b97e4621f640f0",
+    "observed_at": "2026-10-25T22:54:47.483016+09:00"
+  },
+  "public_qa": {
+    "screenshots": [
+      {
+        "kind": "blog",
+        "url": "https://tinymoments.site/blog/",
+        "name": "desktop-1365",
+        "width": 1365,
+        "height": 900,
+        "path": "/Users/eee/dev/tinymoments.site/docs/evidence/blog-list-divider-after-desktop-1365-2026-10-25.png",
+        "observed_at": "2026-10-25T22:55:38.271+09:00",
+        "noHorizontalOverflow": true,
+        "borders": [
+          {
+            "item": "1px",
+            "link": "0px"
+          },
+          {
+            "item": "1px",
+            "link": "0px"
+          },
+          {
+            "item": "1px",
+            "link": "0px"
+          },
+          {
+            "item": "1px",
+            "link": "0px"
+          },
+          {
+            "item": "1px",
+            "link": "0px"
+          },
+          {
+            "item": "0px",
+            "link": "0px"
+          }
+        ],
+        "sha256": "8e2b9a98ffcb930f60edc8a862281169f3b8edbdeaf680e2d155b061e6de12b8",
+        "original_png": true,
+        "direct_visual_reviewed": true
+      },
+      {
+        "kind": "blog",
+        "url": "https://tinymoments.site/blog/",
+        "name": "mobile-375",
+        "width": 375,
+        "height": 812,
+        "path": "/Users/eee/dev/tinymoments.site/docs/evidence/blog-list-divider-after-mobile-375-2026-10-25.png",
+        "observed_at": "2026-10-25T22:55:38.894+09:00",
+        "noHorizontalOverflow": true,
+        "borders": [
+          {
+            "item": "1px",
+            "link": "0px"
+          },
+          {
+            "item": "1px",
+            "link": "0px"
+          },
+          {
+            "item": "1px",
+            "link": "0px"
+          },
+          {
+            "item": "1px",
+            "link": "0px"
+          },
+          {
+            "item": "1px",
+            "link": "0px"
+          },
+          {
+            "item": "0px",
+            "link": "0px"
+          }
+        ],
+        "sha256": "7e53306f63e5922b22c5875d969988be9237d2798c8fb2f26e5c2175f6430bd5",
+        "original_png": true,
+        "direct_visual_reviewed": true
+      },
+      {
+        "kind": "blog",
+        "url": "https://tinymoments.site/blog/",
+        "name": "mobile-320",
+        "width": 320,
+        "height": 700,
+        "path": "/Users/eee/dev/tinymoments.site/docs/evidence/blog-list-divider-after-mobile-320-2026-10-25.png",
+        "observed_at": "2026-10-25T22:55:39.529+09:00",
+        "noHorizontalOverflow": true,
+        "borders": [
+          {
+            "item": "1px",
+            "link": "0px"
+          },
+          {
+            "item": "1px",
+            "link": "0px"
+          },
+          {
+            "item": "1px",
+            "link": "0px"
+          },
+          {
+            "item": "1px",
+            "link": "0px"
+          },
+          {
+            "item": "1px",
+            "link": "0px"
+          },
+          {
+            "item": "0px",
+            "link": "0px"
+          }
+        ],
+        "sha256": "299c6cbcad400cd2e76fd83186899541a74bac53786a8f5d576e2a31cdcc14a8",
+        "original_png": true,
+        "direct_visual_reviewed": true
+      },
+      {
+        "kind": "article",
+        "url": "https://tinymoments.site/blog/from-widget-to-the-same-moment/",
+        "name": "desktop-1365",
+        "width": 1365,
+        "height": 900,
+        "path": "/Users/eee/dev/tinymoments.site/docs/evidence/widget-title-wrap-after-desktop-1365-2026-10-25.png",
+        "observed_at": "2026-10-25T22:55:40.347+09:00",
+        "noHorizontalOverflow": true,
+        "wordBreak": "keep-all",
+        "title": "사진 한 장으로 남기는 육아일기, 위젯에서 다시 보기",
+        "titleLines": [
+          "사진 한 장으로 남기는 육아일기, 위젯에서 다시 보기"
+        ],
+        "wordRows": [
+          {
+            "word": "육아일기",
+            "rows": 1
+          },
+          {
+            "word": "보기",
+            "rows": 1
+          }
+        ],
+        "inlineLinkBorders": [
+          "1px",
+          "1px",
+          "1px"
+        ],
+        "sha256": "551c27fdf22f8044339ef70f884227763c710374540efd0e31fd5d673ff147cc",
+        "original_png": true,
+        "direct_visual_reviewed": false
+      },
+      {
+        "kind": "article",
+        "url": "https://tinymoments.site/blog/from-widget-to-the-same-moment/",
+        "name": "mobile-375",
+        "width": 375,
+        "height": 812,
+        "path": "/Users/eee/dev/tinymoments.site/docs/evidence/widget-title-wrap-after-mobile-375-2026-10-25.png",
+        "observed_at": "2026-10-25T22:55:40.955+09:00",
+        "noHorizontalOverflow": true,
+        "wordBreak": "keep-all",
+        "title": "사진 한 장으로 남기는 육아일기, 위젯에서 다시 보기",
+        "titleLines": [
+          "사진 한 장으로 남기는",
+          "육아일기, 위젯에서 다시 보기"
+        ],
+        "wordRows": [
+          {
+            "word": "육아일기",
+            "rows": 1
+          },
+          {
+            "word": "보기",
+            "rows": 1
+          }
+        ],
+        "inlineLinkBorders": [
+          "1px",
+          "1px",
+          "1px"
+        ],
+        "sha256": "20c015a6caa696f90ee315cea144a4fe55c77ca5edaa12e2f88d5380e6201f1c",
+        "original_png": true,
+        "direct_visual_reviewed": false
+      },
+      {
+        "kind": "article",
+        "url": "https://tinymoments.site/blog/from-widget-to-the-same-moment/",
+        "name": "mobile-320",
+        "width": 320,
+        "height": 700,
+        "path": "/Users/eee/dev/tinymoments.site/docs/evidence/widget-title-wrap-after-mobile-320-2026-10-25.png",
+        "observed_at": "2026-10-25T22:55:41.566+09:00",
+        "noHorizontalOverflow": true,
+        "wordBreak": "keep-all",
+        "title": "사진 한 장으로 남기는 육아일기, 위젯에서 다시 보기",
+        "titleLines": [
+          "사진 한 장으로 남기는",
+          "육아일기, 위젯에서 다시",
+          "보기"
+        ],
+        "wordRows": [
+          {
+            "word": "육아일기",
+            "rows": 1
+          },
+          {
+            "word": "보기",
+            "rows": 1
+          }
+        ],
+        "inlineLinkBorders": [
+          "1px",
+          "1px",
+          "1px"
+        ],
+        "sha256": "165a4e4ab421064f89b2b85caebfe9d2573f8d3ec004b86201cd1195fbf25dab",
+        "original_png": true,
+        "direct_visual_reviewed": true
+      }
+    ],
+    "releaseBorders": [
+      {
+        "item": "1px",
+        "link": "0px"
+      },
+      {
+        "item": "1px",
+        "link": "0px"
+      },
+      {
+        "item": "1px",
+        "link": "0px"
+      },
+      {
+        "item": "1px",
+        "link": "0px"
+      },
+      {
+        "item": "1px",
+        "link": "0px"
+      },
+      {
+        "item": "0px",
+        "link": "0px"
+      }
+    ],
+    "keyboardFocus": {
+      "visible": true,
+      "style": "auto",
+      "width": "1px"
+    },
+    "googleRequests": 0,
+    "storeNavigations": 0,
+    "liveGrantClicked": false
+  },
+  "local_build": "Existing compatibility environment reused; passed. No runtime/dependency installation.",
+  "preserved": {
+    "approved_article_source_sha256": "74b4f7d594aee39c58075cf42690fcb73b17ef0ec7e752b0252a8534d8f182ae",
+    "article_copy_dates_urls_and_ctas_unchanged": true,
+    "inline_article_link_borders": "1px retained",
+    "analytics_and_consent_js_config_unchanged": true,
+    "keyboard_focus_preserved": {
+      "visible": true,
+      "style": "auto",
+      "width": "1px"
+    }
+  },
+  "reference_screenshot": "/Users/eee/dev/tinymoments.site/docs/evidence/blog-list-double-divider-before-2026-10-25.png",
+  "evidence_directory": "/Users/eee/dev/tinymoments.site/docs/records/site-style-fix-2026-10-25",
+  "rollback": "Review subsequent changes and revert only source commit f19cea3d9d80060efb205324b6bf945526347b89; push through existing Pages. Evidence commits do not alter public content.",
+  "limits": [
+    "Desktop Chrome viewports, physical Safari/iOS and every zoom setting not tested.",
+    "No consent grant, GA validation event, actual App Store navigation or install effect test performed."
+  ],
+  "owned_browser_closed_and_qa_caches_removed": true
+}
