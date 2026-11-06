@@ -21,6 +21,7 @@ analytics:
 google_site_verification: VElJolOjuWiq-HPizdgQjvdx4MjaPZy7BmQw3t88e7E
 
 exclude:
+  - AGENTS.md
   - CLAUDE.md
   - README.md
   - Gemfile
