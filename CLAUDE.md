@@ -1,36 +1,31 @@
 # tinymoments.site
 
-작은 위로(tiny-moments) iOS 앱의 정적 사이트. GitHub Pages 호스팅.
+작은 위로 앱(`tiny-moments`, `site.tinymoments.app`)의 Jekyll + GitHub Pages 사이트다.
+`CLAUDE.md`가 공용 원문이며, Codex의 `AGENTS.md`는 이를 가리키는 상대 심볼릭 링크다.
 
-## 구성
+## 먼저 읽을 문서
 
-- `index.html` — 랜딩 페이지
-- `privacy/` — 개인정보처리방침
-- `tiny-moments*.json` — 앱 강제/권장 업데이트 정책 (dev/testflight/production)
-- `CNAME` — tinymoments.site 도메인
+공통 규칙은 전역 지침과 연결된 원문을 따른다. 공통 문서는 전역 지침의 `apps.md` 연결에서, 동반 앱은 등록 프로젝트·기존 checkout의 이름과 Git remote로 찾는다. 아래 경로는 확인한 실제 루트 기준이다.
 
-## 관련 레포
+본 작업과 분리된 호출로 다음 본문을 순서대로 읽는다.
 
-- 앱: `~/dev/tiny-moments/` (site.tinymoments.app)
-- 앱 레포에 주요 컨텍스트(`AGENTS.md`, 메모리)를 둔다. 이 저장소는 사이트 작업 위치이며, 경로 접근이나 문서 열람 자체가 게시·배포 승인은 아니다.
+1. 도구의 전역 지침 → 동반 앱 `AGENTS.md`의 **Companion Site & Release 전체** → 공통 `apps.md`.
+2. 글·페이지·서식은 공통 `product-site.md`의 해당 형식·톤·검수 절, Git 작업은 공통 `release-cycle.md`의 작업공간·브랜치·검수·병합 절.
+3. 출시 연계 게시 전에는 앱의 **출시 게시물 검토 (게시 전)**와 `apps.md`가 연결한 `app-growth/playbooks/release-review.md`의 **목적과 담당** → **최신 검증된 인계 기록**(해당 절·`app-growth/BACKLOG.md`의 연결) → **3. 출시 연계 사이트 게시물 검토 전체**를 읽는다.
 
-## 작업 전 지침 읽기
+필수 문서의 위치·본문이나 승인 근거를 확인하지 못하면 해당 외부 반영을 보류하고, 가능한 로컬 검토를 계속한다.
 
-- Codex 진입점 `AGENTS.md`는 이 `CLAUDE.md`를 가리키는 상대 심볼릭 링크이며 둘을 Git에 함께 보존한다. 실제 루트·브랜치·기존 변경과 사용 중인 도구의 전역 지침(Codex: `~/.codex/AGENTS.md`)을 확인한다.
-- 본 작업과 분리된 도구 호출로 `~/dev/tiny-moments/AGENTS.md`의 **Companion Site & Release 전체**와 `~/dev/docs/apps.md`를 먼저 읽는다. 앱을 다른 곳에 체크아웃했다면 확인한 실제 경로를 사용한다. 링크·해시 확인만으로 열람을 대신하지 않는다.
-- 글·페이지·서식 작업은 `~/dev/docs/product-site.md`의 해당 형식·톤·검수 절, Git 반영은 `~/dev/docs/release-cycle.md`의 작업공간·브랜치·검수·병합 절을 읽는다. 출시 연계 글의 게시 전에는 앱의 **출시 게시물 검토 (게시 전)** 및 `~/dev/app-growth/playbooks/release-review.md`의 **3. 출시 연계 사이트 게시물 검토** 전체를 읽는다. 앱 제출까지 다루는 경우에만 앱 `docs/app-store-upload.md`의 제출·실기기 QA 절도 읽는다.
-- 최신 담당과 실제 승인 원본은 앱 지침·로컬 app-growth의 검증된 인계에서 확인한다. 필요한 문서가 없거나 승인 대상·최종본이 불명확하면 관련 게시를 진행하지 않고, 승인 범위의 로컬 검토·초안 작업을 계속한다. 이미 열린 대화의 자동 재열람은 가정하지 않는다.
+## 사이트 고유 규칙
 
-## 작업과 게시 권한
+- `index.html`은 랜딩, `privacy/`·`support/`는 정책·지원, `blog/`·`release/`는 목록, `_posts/`는 원고다. `_config.yml`·`CNAME`이 공개 주소와 빌드를 정한다.
+- `main` push는 `https://tinymoments.site` 전체 운영 배포다. 해당 변경의 게시·배포 승인 범위를 먼저 대조한다.
+- 출시 글은 위 원문과 최신 검증된 인계를 대조해 현재 담당·위임 범위를 확인하고, 실제 **출시 게시물 검토 승인** 또는 사용자 직접 승인 원본을 확인한다. 앱·버전·글·최종 원고·URL·게시 권한이 일치할 때만 게시하며, 변경 검토·사후 보고는 그 절차를 따른다. App Review 승인과 별개이며 앱 자동 출시에 대기를 추가하지 않는다.
+- `tiny-moments.json`·`tiny-moments-testflight.json`·`tiny-moments-dev.json`은 실행 중인 앱의 UpdateGate에 영향을 준다. 변경할 채널과 버전 범위를 검증한다.
+- 커밋 메시지는 한국어와 `Co-Authored-By`를 사용한다.
+- 공개 가능한 원고·검수·복구 자료는 `docs/`에 Git 보존한다. 비공개 담당·승인·예약·인증 자료와 개인 메모리 경로는 공개 저장소에 넣지 않는다.
 
-- 현재 사용자 요청과 기존 승인이 정한 범위에서 작업한다. 출시 연계 글은 앱 지침의 위임 범위 안에서 최종 원고·목표 URL·게시 승인 포함 여부가 일치하는 **`출시 게시물 검토 승인`** 또는 해당 범위의 사용자 직접 승인을 확인한다. 동일 범위 승인은 다시 묻지 않고 최종본 변경은 변경 부분을 재검토받는다.
-- 이 게시 승인은 App Review의 **`심사 제출 검토 승인`**과 별개다. 앱 자동 출시에 추가 대기를 만들지 않으며 독립 콘텐츠·업데이트 정책 JSON·추적·DNS·권한 변경의 승인으로 확대하지 않는다. 각각의 실제 승인 범위를 대조한다.
+## 검수
 
-## 규칙
-
-- 한국어 커밋 메시지 (Co-Authored-By 포함)
-- `main` push는 GitHub Pages 운영 배포로 이어진다. 로컬 문서 커밋·병합과 원격 push·게시를 구분하고 운영 영향과 해당 배포 권한을 확인한다. 배포 금지 요청에서는 push하지 않는다.
-- JSON 정책 파일 수정 시 앱의 UpdateGate 동작 영향 주의
-
-- 게시 원고·복구 패치·검수 기록·원본 PNG는 이 저장소의 `docs/`에서 Git 보존한다. 불필요한 별도 최상위 보관 폴더를 만들지 않으며 브라우저 프로필·빌드 산출물·캐시는 커밋하지 않는다.
-- 이 저장소는 공개 저장소다. 공유할 진입·작업 절차만 Git에 넣고, 로컬 담당 대화 ID·예약 프롬프트/설정·비공개 성장 원본·인증 자료는 로컬 app-growth의 기존 보관 경로에 둔다. 기존에 승인해 보존한 사이트 원고·검수 자료와 구분한다.
+- `JEKYLL_ENV=production bundle exec jekyll build --safe`로 빌드한다. 로컬 Ruby 호환이 필요하면 [기존 빌드 환경](docs/records/widget-article-2026-10-25/build-environment/)을 재사용한다.
+- `_config.yml`의 AGENTS·CLAUDE 제외를 유지하고, 생성물에 두 지침의 원문·HTML이 없는지 확인한다. 관련 페이지·내부/설치 링크·정책 JSON을 대조한다.
+- 승인된 배포 뒤에는 대상 SHA의 GitHub Pages 성공과 실제 공개 URL·내용을 확인한다. 빌드 산출물·캐시·브라우저 프로필은 커밋하지 않는다.
